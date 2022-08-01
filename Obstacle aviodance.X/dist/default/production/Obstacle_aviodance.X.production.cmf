@@ -1,0 +1,675 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+end_init CODE 0 0 0 3 2
+config CONFIG 4 2007 2007 1 2
+$dist/default/production\Obstacle_aviodance.X.production.o
+cinit CODE 0 7F6 7F6 A 2
+text1 CODE 0 3BA 3BA 4C 2
+text2 CODE 0 482 482 BA 2
+text3 CODE 0 406 406 7C 2
+text4 CODE 0 619 619 1DD 2
+text5 CODE 0 37A 37A 40 2
+text6 CODE 0 305 305 12 2
+text7 CODE 0 35B 35B 1F 2
+text8 CODE 0 2F5 2F5 10 2
+text9 CODE 0 317 317 14 2
+text10 CODE 0 32B 32B 16 2
+text11 CODE 0 341 341 1A 2
+maintext CODE 0 53C 53C DD 2
+cstackCOMMON COMMON 1 70 70 E 1
+cstackBANK0 BANK0 1 20 20 29 1
+bssBANK0 BANK0 1 49 49 4 1
+strings STRING 0 3 3 36 2
+config CONFIG 4 2007 2007 1 2
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 4D-6F 1
+RAM A0-EF 1
+RAM 110-16F 1
+RAM 190-1EF 1
+BANK0 4D-6F 1
+BANK1 A0-EF 1
+BANK2 110-16F 1
+BANK3 190-1EF 1
+CONST 39-2F4 2
+CONST 800-1FFF 2
+ENTRY 39-2F4 2
+ENTRY 800-1FFF 2
+IDLOC 2000-2003 2
+STACK 110-16F 1
+CODE 39-2F4 2
+CODE 800-1FFF 2
+SFR0 0-1F 1
+SFR1 80-9F 1
+SFR2 100-10F 1
+SFR3 180-18F 1
+EEDATA 2100-21FF 2
+STRCODE 39-2F4 2
+STRCODE 800-1FFF 2
+STRING 39-2F4 2
+STRING 800-1FFF 2
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\Obstacle_aviodance.X.production.o
+7F6 cinit CODE >529:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7F6 cinit CODE >532:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7F6 cinit CODE >546:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7F7 cinit CODE >547:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7F8 cinit CODE >548:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7F9 cinit CODE >549:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7FA cinit CODE >550:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7FB cinit CODE >551:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7FC cinit CODE >557:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7FC cinit CODE >559:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+7FD cinit CODE >560:C:\Users\hp\AppData\Local\Temp\xcAs2q4.s
+341 text11 CODE >55:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+341 text11 CODE >58:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+344 text11 CODE >59:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+345 text11 CODE >62:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+346 text11 CODE >63:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+348 text11 CODE >66:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+349 text11 CODE >67:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+34C text11 CODE >70:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+34D text11 CODE >71:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+350 text11 CODE >74:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+351 text11 CODE >75:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+354 text11 CODE >78:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+355 text11 CODE >79:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+356 text11 CODE >82:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+359 text11 CODE >83:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+35A text11 CODE >84:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+32B text10 CODE >26:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+32B text10 CODE >28:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+32F text10 CODE >29:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+331 text10 CODE >30:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+333 text10 CODE >31:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+340 text10 CODE >32:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+317 text9 CODE >113:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+317 text9 CODE >115:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+31D text9 CODE >117:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+31E text9 CODE >118:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+31F text9 CODE >119:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+31F text9 CODE >121:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+323 text9 CODE >123:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+327 text9 CODE >124:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+329 text9 CODE >127:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+32A text9 CODE >128:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+2F5 text8 CODE >88:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+2F6 text8 CODE >90:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+2FA text8 CODE >91:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+2FE text8 CODE >92:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+304 text8 CODE >93:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+35B text7 CODE >97:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+35C text7 CODE >99:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+35D text7 CODE >100:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+36D text7 CODE >99:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+375 text7 CODE >99:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+379 text7 CODE >101:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+305 text6 CODE >105:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+305 text6 CODE >107:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+309 text6 CODE >108:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+316 text6 CODE >109:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+37A text5 CODE >131:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+37A text5 CODE >134:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+37D text5 CODE >135:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+37E text5 CODE >136:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+389 text5 CODE >139:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+390 text5 CODE >141:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+393 text5 CODE >142:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+394 text5 CODE >143:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+395 text5 CODE >144:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+396 text5 CODE >145:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+39C text5 CODE >146:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3A1 text5 CODE >150:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3A8 text5 CODE >152:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3AB text5 CODE >153:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3AC text5 CODE >154:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3AD text5 CODE >155:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3AE text5 CODE >156:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3B4 text5 CODE >157:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3B9 text5 CODE >162:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+619 text4 CODE >8:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+619 text4 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+620 text4 CODE >27:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+626 text4 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+62A text4 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+62B text4 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+630 text4 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+635 text4 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+63D text4 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+63E text4 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+63F text4 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+640 text4 CODE >46:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+648 text4 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+64D text4 CODE >50:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+653 text4 CODE >51:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+657 text4 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+658 text4 CODE >56:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+65D text4 CODE >58:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+662 text4 CODE >60:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+66A text4 CODE >63:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+66B text4 CODE >65:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+66C text4 CODE >66:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+66D text4 CODE >69:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+675 text4 CODE >70:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+675 text4 CODE >75:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+679 text4 CODE >75:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+67D text4 CODE >76:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+685 text4 CODE >77:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+689 text4 CODE >78:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+68D text4 CODE >79:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+696 text4 CODE >83:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+69B text4 CODE >84:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+69B text4 CODE >85:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6A4 text4 CODE >89:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6AC text4 CODE >89:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6B2 text4 CODE >89:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6B6 text4 CODE >92:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6BE text4 CODE >93:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6C6 text4 CODE >94:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6CE text4 CODE >96:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6CF text4 CODE >97:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6D0 text4 CODE >100:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6D5 text4 CODE >101:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6D7 text4 CODE >101:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6DE text4 CODE >102:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6E0 text4 CODE >102:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6E7 text4 CODE >103:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6EB text4 CODE >104:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6EC text4 CODE >106:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6EE text4 CODE >106:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6F5 text4 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6F7 text4 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6FB text4 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+6FF text4 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+703 text4 CODE >112:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+707 text4 CODE >115:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+708 text4 CODE >116:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+70B text4 CODE >116:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+70F text4 CODE >116:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+713 text4 CODE >116:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+716 text4 CODE >118:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+71A text4 CODE >97:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+71C text4 CODE >97:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+720 text4 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+724 text4 CODE >122:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+728 text4 CODE >123:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+72A text4 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+72C text4 CODE >128:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+733 text4 CODE >129:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+737 text4 CODE >130:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+738 text4 CODE >132:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+73A text4 CODE >132:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+741 text4 CODE >133:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+743 text4 CODE >133:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+747 text4 CODE >127:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+74B text4 CODE >139:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+74C text4 CODE >140:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+750 text4 CODE >141:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+760 text4 CODE >141:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+764 text4 CODE >142:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+766 text4 CODE >143:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+767 text4 CODE >144:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+767 text4 CODE >145:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+76C text4 CODE >150:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+771 text4 CODE >151:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+774 text4 CODE >151:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+778 text4 CODE >151:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+77C text4 CODE >151:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+77F text4 CODE >152:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+783 text4 CODE >153:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+79C text4 CODE >154:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+79E text4 CODE >154:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7A2 text4 CODE >159:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7A7 text4 CODE >159:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7AB text4 CODE >159:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7AF text4 CODE >160:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7B5 text4 CODE >161:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7BD text4 CODE >165:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7C4 text4 CODE >165:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7C8 text4 CODE >165:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7CC text4 CODE >166:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7D0 text4 CODE >167:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7D8 text4 CODE >169:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7D9 text4 CODE >170:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7D9 text4 CODE >173:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7DF text4 CODE >175:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7E3 text4 CODE >176:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7E4 text4 CODE >177:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7E5 text4 CODE >180:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7E9 text4 CODE >181:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7E9 text4 CODE >182:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7EB text4 CODE >182:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7F0 text4 CODE >183:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+7F5 text4 CODE >185:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\sprcdiv.c
+406 text3 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+406 text3 CODE >47:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+413 text3 CODE >48:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+41C text3 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+425 text3 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+42B text3 CODE >49:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+431 text3 CODE >50:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+432 text3 CODE >51:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+43A text3 CODE >52:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+43C text3 CODE >53:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+440 text3 CODE >54:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+443 text3 CODE >54:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+448 text3 CODE >57:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+449 text3 CODE >57:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+44F text3 CODE >57:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+451 text3 CODE >58:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+45A text3 CODE >60:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+45C text3 CODE >60:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+461 text3 CODE >63:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+463 text3 CODE >63:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+46A text3 CODE >64:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+46C text3 CODE >62:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+46C text3 CODE >65:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+471 text3 CODE >67:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+476 text3 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+47B text3 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+47D text3 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+47F text3 CODE >68:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+481 text3 CODE >70:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\fltol.c
+482 text2 CODE >10:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+483 text2 CODE >15:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+48C text2 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+495 text2 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+497 text2 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+499 text2 CODE >16:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+49B text2 CODE >17:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+49C text2 CODE >19:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4A4 text2 CODE >20:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4A4 text2 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4A8 text2 CODE >21:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4AC text2 CODE >22:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4B5 text2 CODE >23:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4B9 text2 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4BA text2 CODE >25:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4BE text2 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4BF text2 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4C5 text2 CODE >26:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4C7 text2 CODE >24:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4CE text2 CODE >29:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4D2 text2 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4D5 text2 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4D9 text2 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4DD text2 CODE >30:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4E0 text2 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4E1 text2 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4E7 text2 CODE >31:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4E9 text2 CODE >28:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4E9 text2 CODE >32:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4F0 text2 CODE >34:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4F2 text2 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4F4 text2 CODE >35:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+4FB text2 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+501 text2 CODE >33:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+505 text2 CODE >37:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+509 text2 CODE >38:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+511 text2 CODE >39:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+513 text2 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+519 text2 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+51F text2 CODE >40:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+529 text2 CODE >41:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+532 text2 CODE >42:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+533 text2 CODE >43:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+53B text2 CODE >44:C:\Program Files\Microchip\xc8\v2.32\pic\sources\c90\common\xxtofl.c
+3BA text1 CODE >34:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3BA text1 CODE >36:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3BA text1 CODE >37:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3BE text1 CODE >39:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3BF text1 CODE >40:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3C6 text1 CODE >41:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3C9 text1 CODE >43:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3CD text1 CODE >45:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3CE text1 CODE >47:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3D2 text1 CODE >49:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+3D3 text1 CODE >51:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+405 text1 CODE >53:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+53C maintext CODE >165:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+53C maintext CODE >169:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+53F maintext CODE >170:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+540 maintext CODE >171:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+542 maintext CODE >172:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+544 maintext CODE >173:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+546 maintext CODE >174:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+548 maintext CODE >179:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+54B maintext CODE >180:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+54C maintext CODE >183:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+54D maintext CODE >184:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+54F maintext CODE >187:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+554 maintext CODE >190:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+55A maintext CODE >191:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+55F maintext CODE >195:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+564 maintext CODE >196:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+569 maintext CODE >204:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+56E maintext CODE >205:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+578 maintext CODE >207:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+57D maintext CODE >208:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+581 maintext CODE >209:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+583 maintext CODE >210:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+585 maintext CODE >212:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+594 maintext CODE >215:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+599 maintext CODE >216:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5A3 maintext CODE >218:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5A8 maintext CODE >219:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5AC maintext CODE >220:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5AE maintext CODE >221:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5B0 maintext CODE >223:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5BF maintext CODE >226:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5C4 maintext CODE >227:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5CE maintext CODE >229:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5D3 maintext CODE >230:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5D7 maintext CODE >231:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5D9 maintext CODE >232:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5DB maintext CODE >234:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5EA maintext CODE >237:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5EF maintext CODE >238:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5F9 maintext CODE >240:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+5FE maintext CODE >241:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+602 maintext CODE >242:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+604 maintext CODE >243:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+606 maintext CODE >245:C:\Users\hp\MPLABXProjects\Obstacle aviodance.X\newfile.c
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___latbits 2 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__Hspace_0 800 0 ABS 0 - -
+__Hspace_1 7E 0 ABS 0 - -
+__Hspace_2 0 0 ABS 0 - -
+__Hspace_3 0 0 ABS 0 - -
+__Hspace_4 400F 0 ABS 0 - -
+__Heeprom_data 0 0 EEDATA 3 eeprom_data -
+__end_of_USART_string 6F4 0 CODE 0 text7 dist/default/production\Obstacle_aviodance.X.production.o
+__Hstrings 0 0 ABS 0 strings -
+_BRGH 4C2 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_CREN C4 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_OERR C1 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_PEIE 5E 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RCIE 465 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RCIF 65 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_SPEN C7 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_SYNC 4C4 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TMR1 E 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRMT 4C1 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TXEN 4C5 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TXIE 464 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TXIF 64 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+_main A78 0 CODE 0 maintext dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_calculate_distance 80C 0 CODE 0 text1 dist/default/production\Obstacle_aviodance.X.production.o
+btemp 7E 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+start 0 0 CODE 0 init C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+__size_of___fldiv 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__size_of___fltol 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_main 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_USART_Init 6B6 0 CODE 0 text11 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_USART_char 60A 0 CODE 0 text8 dist/default/production\Obstacle_aviodance.X.production.o
+__Hpowerup 0 0 CODE 0 powerup -
+intlevel0 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+intlevel1 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+intlevel2 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+intlevel3 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+intlevel4 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+intlevel5 0 0 ENTRY 0 functab C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+_calculate_distance 774 0 CODE 0 text1 dist/default/production\Obstacle_aviodance.X.production.o
+wtemp0 7E 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__Hfunctab 0 0 ENTRY 0 functab -
+__Hclrtext 0 0 ABS 0 clrtext -
+USART_string@string 72 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_send_data 62E 0 CODE 0 text6 dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_send_data 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__Lmaintext 0 0 ABS 0 maintext -
+___fldiv@aexp 39 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@bexp 38 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@sign 31 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of___fldiv FEC 0 CODE 0 text4 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of___fltol 904 0 CODE 0 text3 dist/default/production\Obstacle_aviodance.X.production.o
+_send_data 60A 0 CODE 0 text6 dist/default/production\Obstacle_aviodance.X.production.o
+___stackhi 0 0 ABS 0 - C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+___stacklo 0 0 ABS 0 - C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+__size_of_bltoh 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@a 20 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@b 24 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+start_initialization FEC 0 CODE 0 cinit dist/default/production\Obstacle_aviodance.X.production.o
+bltoh@get_value 75 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_USART_get_char 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__pcstackBANK0 20 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+USART_char@byte 70 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+_TMR1CS 81 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TMR1ON 80 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISB0 430 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISB1 431 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISC2 43A 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISC3 43B 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISC6 43E 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISC7 43F 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD2 442 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD3 443 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD4 444 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD5 445 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD6 446 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TRISD7 447 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_USART_Init 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_USART_char 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+___int_sp 0 0 STACK 2 stack C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+__Hbank0 0 0 ABS 0 bank0 -
+__Hbank1 0 0 ABS 0 bank1 -
+__Hbank2 0 0 ABS 0 bank2 -
+__Hbank3 0 0 ABS 0 bank3 -
+__Hcinit 1000 0 CODE 0 cinit -
+__Hstack 0 0 STACK 2 stack -
+__stringbase 10 0 STRING 0 strings dist/default/production\Obstacle_aviodance.X.production.o
+__size_of___xxtofl 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__Hmaintext 0 0 ABS 0 maintext -
+___xxtofl@arg 7A 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+___xxtofl@exp 79 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+___xxtofl@val 70 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__Hcommon 0 0 ABS 0 common -
+__Hconfig 4010 0 CONFIG 4 config -
+__Lbank0 0 0 ABS 0 bank0 -
+__Lbank1 0 0 ABS 0 bank1 -
+__Lbank2 0 0 ABS 0 bank2 -
+__Lbank3 0 0 ABS 0 bank3 -
+__Lcinit FEC 0 CODE 0 cinit -
+__Lstack 0 0 STACK 2 stack -
+__Habs1 0 0 ABS 0 abs1 -
+__Hcode 0 0 ABS 0 code -
+__Hinit 0 0 CODE 0 init -
+__Hsfr0 0 0 ABS 0 sfr0 -
+__Hsfr1 0 0 ABS 0 sfr1 -
+__Hsfr2 0 0 ABS 0 sfr2 -
+__Hsfr3 0 0 ABS 0 sfr3 -
+__Htext 0 0 ABS 0 text -
+__Labs1 0 0 ABS 0 abs1 -
+__Lcode 0 0 ABS 0 code -
+__Linit 0 0 CODE 0 init -
+__Lsfr0 0 0 ABS 0 sfr0 -
+__Lsfr1 0 0 ABS 0 sfr1 -
+__Lsfr2 0 0 ABS 0 sfr2 -
+__Lsfr3 0 0 ABS 0 sfr3 -
+__Ltext 0 0 ABS 0 text -
+__LcstackBANK0 0 0 ABS 0 cstackBANK0 -
+__HcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+_GIE 5F 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RB0 30 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RB1 31 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RC2 3A 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RC3 3B 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD2 42 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD3 43 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD4 44 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD5 45 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD6 46 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RD7 47 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_RX9 C6 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TX9 4C6 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__S0 800 0 ABS 0 - -
+__S1 7E 0 ABS 0 - -
+__S2 0 0 ABS 0 - -
+__S3 0 0 ABS 0 - -
+__size_of_calculate_distance 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+___xxtofl 904 0 CODE 0 text2 dist/default/production\Obstacle_aviodance.X.production.o
+__Lintentry 0 0 CODE 0 intentry -
+__stringtab 6 0 STRING 0 strings dist/default/production\Obstacle_aviodance.X.production.o
+reset_vec 0 0 CODE 0 reset_vec C:\Users\hp\AppData\Local\Temp\xcAs2q4.o
+__end_of___xxtofl A78 0 CODE 0 text2 dist/default/production\Obstacle_aviodance.X.production.o
+__LbssBANK0 0 0 ABS 0 bssBANK0 -
+__size_of_back_off 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__ptext10 656 0 CODE 0 text10 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext11 682 0 CODE 0 text11 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv C32 0 CODE 0 text4 dist/default/production\Obstacle_aviodance.X.production.o
+___fltol 80C 0 CODE 0 text3 dist/default/production\Obstacle_aviodance.X.production.o
+__pmaintext A78 0 CODE 0 maintext dist/default/production\Obstacle_aviodance.X.production.o
+__Lcommon 0 0 ABS 0 common -
+__Lconfig 0 0 CONFIG 4 config -
+___fldiv@grs 34 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@rem 2D 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+___fldiv@new_exp 32 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of__stringtab 12 0 STRING 0 strings dist/default/production\Obstacle_aviodance.X.production.o
+__Lspace_0 0 0 ABS 0 - -
+__Lspace_1 0 0 ABS 0 - -
+__Lspace_2 0 0 ABS 0 - -
+__Lspace_3 0 0 ABS 0 - -
+__Lspace_4 0 0 ABS 0 - -
+__HcstackBANK0 0 0 ABS 0 cstackBANK0 -
+_back_off 656 0 CODE 0 text10 dist/default/production\Obstacle_aviodance.X.production.o
+__Lend_init 0 0 CODE 0 end_init -
+__LcstackCOMMON 0 0 ABS 0 cstackCOMMON -
+___fltol@exp1 44 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+end_of_initialization FF8 0 CODE 0 cinit dist/default/production\Obstacle_aviodance.X.production.o
+__Hintentry 0 0 CODE 0 intentry -
+__end_of_back_off 682 0 CODE 0 text10 dist/default/production\Obstacle_aviodance.X.production.o
+__Lstrings 0 0 ABS 0 strings -
+?___fldiv 20 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+?___fltol 3A 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec -
+__HbssBANK0 0 0 ABS 0 bssBANK0 -
+__ptext1 774 0 CODE 0 text1 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext2 904 0 CODE 0 text2 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext3 80C 0 CODE 0 text3 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext4 C32 0 CODE 0 text4 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext5 6F4 0 CODE 0 text5 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext6 60A 0 CODE 0 text6 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext7 6B6 0 CODE 0 text7 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext8 5EA 0 CODE 0 text8 dist/default/production\Obstacle_aviodance.X.production.o
+__ptext9 62E 0 CODE 0 text9 dist/default/production\Obstacle_aviodance.X.production.o
+__Lpowerup 0 0 CODE 0 powerup -
+?___xxtofl 70 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__Leeprom_data 0 0 EEDATA 3 eeprom_data -
+_USART_get_char 62E 0 CODE 0 text9 dist/default/production\Obstacle_aviodance.X.production.o
+___fltol@sign1 43 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec -
+___fltol@f1 3A 0 BANK0 1 cstackBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of__initialization FF8 0 CODE 0 cinit dist/default/production\Obstacle_aviodance.X.production.o
+__Lfunctab 0 0 ENTRY 0 functab -
+__Lclrtext 0 0 ABS 0 clrtext -
+_USART_string 6B6 0 CODE 0 text7 dist/default/production\Obstacle_aviodance.X.production.o
+_T1CKPS0 84 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_T1CKPS1 85 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__pcstackCOMMON 70 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__Hend_init 6 0 CODE 0 end_init -
+__end_of_main C32 0 CODE 0 maintext dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_bltoh 774 0 CODE 0 text5 dist/default/production\Obstacle_aviodance.X.production.o
+_RCREG 1A 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_SPBRG 99 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_T1CON 10 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+_TXREG 19 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+__Hram 0 0 ABS 0 ram -
+__Lram 0 0 ABS 0 ram -
+_bltoh 6F4 0 CODE 0 text5 dist/default/production\Obstacle_aviodance.X.production.o
+__end_of_USART_get_char 656 0 CODE 0 text9 dist/default/production\Obstacle_aviodance.X.production.o
+_USART_Init 682 0 CODE 0 text11 dist/default/production\Obstacle_aviodance.X.production.o
+_USART_char 5EA 0 CODE 0 text8 dist/default/production\Obstacle_aviodance.X.production.o
+__initialization FEC 0 CODE 0 cinit dist/default/production\Obstacle_aviodance.X.production.o
+___xxtofl@sign 78 0 COMMON 1 cstackCOMMON dist/default/production\Obstacle_aviodance.X.production.o
+__pbssBANK0 49 0 BANK0 1 bssBANK0 dist/default/production\Obstacle_aviodance.X.production.o
+__pstrings 6 0 STRING 0 strings dist/default/production\Obstacle_aviodance.X.production.o
+__size_of_USART_string 0 0 ABS 0 - dist/default/production\Obstacle_aviodance.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+- 1 7E 2
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+cinit 0 7F6 FEC A 2
+text1 0 3BA 774 4C 2
+text2 0 482 904 BA 2
+text3 0 406 80C 7C 2
+text4 0 619 C32 1DD 2
+text5 0 37A 6F4 40 2
+text6 0 305 60A 12 2
+text7 0 35B 6B6 1F 2
+text8 0 2F5 5EA 10 2
+text9 0 317 62E 14 2
+text10 0 32B 656 16 2
+text11 0 341 682 1A 2
+maintext 0 53C A78 DD 2
+cstackCOMMON 1 70 70 E 1
+cstackBANK0 1 20 20 2D 1
+reset_vec 0 0 0 3 2
+strings 0 3 6 36 2
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
